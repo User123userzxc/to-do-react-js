@@ -1,0 +1,96 @@
+/* style.css */
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #282c36; /* Цвет фона контейнера */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+}
+
+h2 {
+  color: #61dafb; /* Цвет заголовка */
+  text-align: center;
+}
+
+h3 {
+  color: #61dafb; /* Цвет подзаголовка */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #282c36; /* Цвет фона элемента списка */
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li input {
+  margin-right: 10px;
+  background-color: #61dafb; /* Цвет фона инпута */
+  color: #282c36; /* Цвет текста инпута */
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  background-color: #61dafb;
+  color: #282c36;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: #282c36;
+  border: none;
+  border-radius: 5px;
+}
+
+button.edit {
+  background-color: #2ecc71;
+}
+
+button.delete {
+  background-color: #e74c3c;
+}
+
+button.update {
+  background-color: #f39c12;
+}
+
+/* Add more styles as needed */
+
+nav ul li:not(:disabled) {
+  /* Ваши стили для активных элементов */
+}
+
+nav ul li:disabled {
+  /* Ваши стили для заблокированных (недоступных) элементов */
+}
